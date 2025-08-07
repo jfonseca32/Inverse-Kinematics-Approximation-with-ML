@@ -10,10 +10,10 @@ title_separator: "-"
 subtitle: "Joao Pedro Dudziak Fonseca, Jackson Merrick, Anand Nagpurkar"
 name: ""
 description: ""
-url: "https://github.gatech.edu/pages/jfonseca32/IK-ML-Project/"
-repository: "jfonseca32/IK-ML-Project"
-teaser: "https://github.gatech.edu/user-attachments/assets/07a7ac11-be95-481a-8d4c-ebb46390448c"
-logo: "https://github.gatech.edu/user-attachments/assets/8ba1a9a1-448e-44eb-b3fa-e7b0ae495f2f"
+url: "https://jfonseca32.github.io/Inverse-Kinematics-Approximation-with-ML/"
+repository: "https://github.com/jfonseca32/Inverse-Kinematics-Approximation-with-ML/"
+teaser: "https://github.com/user-attachments/assets/de436b2e-9b85-402e-8cbe-1cd9ee074cca"
+logo: "https://github.com/user-attachments/assets/14ee69f6-9872-491f-aea2-d03d3ea1bad2"
 masthead_title: "Inverse Kinematics Approximation with Machine Learning"
 breadcrumbs: false
 words_per_minute: 200
@@ -24,12 +24,12 @@ copyright_url: ""
 # Site Author
 author:
   name: "Joao Pedro <br> \n Dudziak Fonseca"
-  avatar: "https://github.gatech.edu/user-attachments/assets/1afc3591-53b6-4179-b83a-358ef334075c"
+  avatar: "https://github.com/user-attachments/assets/092db4f8-29f7-4f24-afaf-8ccf5b502c0c"
   location: "Atlanta, Georgia"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.gatech.edu/jfonseca32/IK-ML-Project"
+      url: "https://github.com/jfonseca32/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/joao-pedro-dudziak-fonseca/"
@@ -42,7 +42,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.gatech.edu/jfonseca32/IK-ML-Project"
+      url: "https://github.com/jfonseca32/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/joao-pedro-dudziak-fonseca/"
