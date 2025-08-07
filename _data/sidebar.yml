@@ -1,0 +1,10 @@
+# _data/sidebar.yml
+custom:
+  - title: "Links"
+    nav:
+      - title: "GitHub"
+        icon: "fab fa-fw fa-github"
+        url: "https://github.gatech.edu/jfonseca32/IK-ML-Project"
+      - title: "LinkedIn"
+        icon: "fab fa-fw fa-linkedin"
+        url: "https://www.linkedin.com/in/joao-pedro-dudziak-fonseca/"
