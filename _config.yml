@@ -12,8 +12,8 @@ name: ""
 description: ""
 url: "https://jfonseca32.github.io/Inverse-Kinematics-Approximation-with-ML/"
 repository: "https://github.com/jfonseca32/Inverse-Kinematics-Approximation-with-ML/"
-teaser: "https://github.com/user-attachments/assets/de436b2e-9b85-402e-8cbe-1cd9ee074cca"
-logo: "https://github.com/user-attachments/assets/14ee69f6-9872-491f-aea2-d03d3ea1bad2"
+teaser: ""
+logo: ""
 masthead_title: "Inverse Kinematics Approximation with Machine Learning"
 breadcrumbs: false
 words_per_minute: 200
@@ -24,7 +24,7 @@ copyright_url: ""
 # Site Author
 author:
   name: "Joao Pedro <br> \n Dudziak Fonseca"
-  avatar: "https://github.com/user-attachments/assets/092db4f8-29f7-4f24-afaf-8ccf5b502c0c"
+  avatar: ""
   location: "Atlanta, Georgia"
   links:
     - label: "GitHub"
