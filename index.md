@@ -20,6 +20,9 @@ Inverse Kinematics (IK) refers to finding specific angle configurations of a rob
 - **Classify the feasibility and conditioning of postures:** We seek to identify, via classification models, whether a desired end-effector pose is reachable (i.e., there exists at least one valid solution) and whether the associated joint configuration is well-conditioned for reliable control.
 In addition to approximating IK solutions, we also investigate a classification problem: determining which joint configurations are feasible (i.e. reachable) and well-conditioned for control. This problem is crucial for robotic systems, as it informs whether a robot can successfully and reliably reach a desired position without falling into a singularity or low-mobility configuration. Trajectories that include poorly conditioned poses can cause reduced precision, slower movements, or control instability. By classifying reachability and conditioning ahead of time, a robotic controller can avoid infeasible or undesirable configurations.
 
+If you prefer a less in-depth presentation format, you can also view this project in:  
+[IK Approximation Using ML Presentation (PDF)]({{ '/docs/Inverse Kinematics Approximation Using Machine Learning.pdf' | relative_url }})
+
 **Project evolution:**  
 Our initial focus was on learning IK for a full 6-DOF manipulator. However, due to high complexity, multi-modality, and large solution space, direct supervised learning for 6DOF proved challenging. As a result, we developed a robust and scalable pipeline for 4DOF manipulators, achieving sub-centimeter accuracy with efficient learning-based methods. For the more complex 6DOF case, we shifted toward a classifier-based approach, training models to predict the feasibility and expected quality of IK solutions—a step toward scalable, hybrid pipelines for high-DOF robots.
 
