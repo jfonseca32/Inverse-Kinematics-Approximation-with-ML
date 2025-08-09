@@ -237,13 +237,12 @@ We benchmarked our machine learning approach (clustered multi-model regression) 
 
 <p align="center">
   Table 2. Evaluation Metrics for 4-DOF Model  
-  
-  | **Method Comparison** | **Joint Mean Absolute Error (rad)** | **Mean End-Effector Error (m)** | **Total Time (s)** | **Time per sample (ms)** |
-  |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |
-  | ML (Clustered, 4) | 1.678 | 0.018 | 47.26 | 0.70 |
-  | PyBullet IK | 1.599 | 0.454 | 9.53 | 9.53 |
 </p>
-
+| **Method Comparison** | **Joint Mean Absolute Error (rad)** | **Mean End-Effector Error (m)** | **Total Time (s)** | **Time per sample (ms)** |
+|     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |
+| ML (Clustered, 4) | 1.678 | 0.018 | 47.26 | 0.70 |
+| PyBullet IK | 1.599 | 0.454 | 9.53 | 9.53 |
+  
 The EE Error metric, which measures the mean Euclidean distance between the predicted and ground-truth end-effector positions, is the most meaningful metric for many robotics tasks. Our best ML model achieved a sub-centimeter mean error (0.018 meters, or 1.8 cm), outperforming the standard PyBullet solver by more than an order of magnitude (0.45 meters, or 45 cm). This demonstrates that, at least for 4-DOF arms, a data-driven ML approach can deliver extremely precise IK predictions across the entire workspace, given sufficient data and well-designed features.
 
 The Joint-Space MAE (mean absolute error in joint angles) was notably higher, around 1.6 radians. However, for unconstrained manipulators, this metric is often less important than EE Error. The redundancy in 4-DOF arms means there are multiple, physically valid joint solutions for the same end-effector position. As a result, the predicted joint angles may deviate substantially from the “ground truth” set, yet still produce nearly identical end-effector positions. This is not a flaw, but a reflection of the fundamental ambiguity in IK.
