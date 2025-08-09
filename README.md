@@ -3,7 +3,7 @@
 - https://gtvault-my.sharepoint.com/:f:/g/personal/jmerrick6_gatech_edu/EhmSNB8IPVREjVSvJbh8kJIBmFvK9uILi26T9vTdv4-oEA?e=ta1Ajw  
 
 This project implements an inverse kinematic pipeline: data generation, preprocessing, model training, evaluation, and visualization. ***The website can be found here:***  
-- https://github.gatech.edu/pages/jfonseca32/IK-ML-Project/
+- https://jfonseca32.github.io/Inverse-Kinematics-Approximation-with-ML/
 
 ## File Reference
 
