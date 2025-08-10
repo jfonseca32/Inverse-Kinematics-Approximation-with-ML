@@ -238,8 +238,9 @@ We benchmarked our machine learning approach (clustered multi-model regression) 
 <p align="center">
   Table 2. Evaluation Metrics for 4-DOF Model  
 </p>
+
 | **Method Comparison** | **Joint Mean Absolute Error (rad)** | **Mean End-Effector Error (m)** | **Total Time (s)** | **Time per sample (ms)** |
-|     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |
+|:---:|:---:|:---:|:---:|:---:|
 | ML (Clustered, 4) | 1.678 | 0.018 | 47.26 | 0.70 |
 | PyBullet IK | 1.599 | 0.454 | 9.53 | 9.53 |
   
